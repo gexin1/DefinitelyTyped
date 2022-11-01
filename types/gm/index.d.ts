@@ -15,7 +15,7 @@ declare function m(width: number, height: number, color?: string): m.State;
 declare namespace m {
     interface ClassOptions {
         appPath?: string | undefined;
-        imageMagick?: boolean | undefined;
+        imageMagick?: boolean | '7+' | undefined;
         nativeAutoOrient?: boolean | undefined;
         timeout?: string | number;
     }
